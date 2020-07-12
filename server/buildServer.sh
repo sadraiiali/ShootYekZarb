@@ -19,4 +19,4 @@ mkdir rcssserver-x86_64
                                 -i ./appimage/rcssserver.png \
                                 --output appimage 
 echo "App Image Created."
-tar czf ServerBin.tar.gz server-bin
+mv rcssserver-x86_64* rcssserver-x86_64.AppImage
