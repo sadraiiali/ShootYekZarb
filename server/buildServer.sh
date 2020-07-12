@@ -3,4 +3,4 @@ set -e
 autoreconf -i
 automake --add-missing
 ./configure
-make -j8
+make
