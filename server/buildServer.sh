@@ -19,4 +19,4 @@ mkdir rcssserver-x86_64
                                 -i ./appimage/rcssserver.png \
                                 --output appimage 
 echo "App Image Created."
-mv rcssserver-x86_64*AppImage rcssserver-x86_64.AppImage
+mv rcssserver-*AppImage rcssserver-x86_64.AppImage
