@@ -37,7 +37,13 @@ jobs:
       
       - name: Build
         run: cd ./server && ./buildServer.sh
-      
+        
+      - name: Archive Binary
+        uses: actions/upload-artifact@v1
+        with:
+          name: Server Binary
+          path: server/rcssserver-x86_64.AppImage
+        
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
