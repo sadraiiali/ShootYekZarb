@@ -38,4 +38,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: Server Binary
-        path: server/Bin/ServerBin.tar.gz
+        path: server/ServerBin.tar.gz
