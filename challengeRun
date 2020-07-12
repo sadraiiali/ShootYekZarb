@@ -1,0 +1,11 @@
+#!/bin/sh
+
+./server/src/rcssserver &
+PID=$!
+
+sleep 1
+
+./monitor/src/rcssmonitor
+
+kill -s INT $PID
+exit 0

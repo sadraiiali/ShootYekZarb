@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd monitor
+./configure &&
+make &&
+cd .. &&
+
+cd server &&
+./configure &&
+make

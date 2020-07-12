@@ -1,0 +1,9 @@
+Challenge - Shoot1Zarb
+
+by:
+Amirabbas Pashaei Hir
+Emad Mohamadi
+
+Setup:
+1. Run "setup script" by "./challengeSet". this will make server and monitor.
+2. Run "run script" bu "./challengeRun". this will run challenge server and monitor.
