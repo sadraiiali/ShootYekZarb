@@ -2,5 +2,5 @@
 set -e
 autoreconf -i
 automake --add-missing
-./configure CXXFLAGS='-std=c++03'
+./configure
 make -j8
