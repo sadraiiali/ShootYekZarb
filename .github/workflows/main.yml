@@ -38,4 +38,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: Server Binary
-        path: server/ServerBin.tar.gz
+        path: server/rcssserver-x86_64.AppImage
